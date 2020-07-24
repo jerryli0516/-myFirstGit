@@ -1,4 +1,7 @@
+//const adds = (x, y) => {return x + y};
 
-const adds = (x, y) => {return x + y};
+console.log("hello world " + add(5, 10));
 
-console.log("hello world " + adds(5, 10));
+function add(x, y){
+    return x+y;
+}
